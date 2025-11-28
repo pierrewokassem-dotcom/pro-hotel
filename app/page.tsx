@@ -208,7 +208,7 @@ export default function HomePage() {
             {ROOMS.map(room => (
               <Link
                 key={room.id}
-                href={`/chambres/{room.slug}`}
+                href={`/chambres/${room.slug}`}
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition group cursor-pointer"
               >
                 <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform">
