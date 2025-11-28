@@ -37,8 +37,8 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>123 Avenue de l'Hôtel</li>
-              <li>75001 Paris, France</li>
-              <li>+33 1 23 45 67 89</li>
+              <li>75001 Lomé, Togo</li>
+              <li>+228 71 67 97 33</li>
               <li><a href="mailto:contact@prohotel.com" className="hover:text-white transition">contact@prohotel.com</a></li>
             </ul>
           </div>

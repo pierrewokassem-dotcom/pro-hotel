@@ -132,7 +132,7 @@ export default function ChambreDeluxePage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg shadow-lg p-6 sticky top-24">
                 <div className="text-center mb-6">
-                  <div className="text-4xl font-bold text-purple-600 mb-2">129€</div>
+                  <div className="text-4xl font-bold text-purple-600 mb-2">80000 F CFA</div>
                   <div className="text-gray-500">par nuit</div>
                 </div>
 

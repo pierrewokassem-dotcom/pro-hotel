@@ -19,7 +19,7 @@ const ROOMS: Room[] = [
     id: '1',
     name: 'Chambre Standard',
     description: 'Chambre confortable avec vue sur la ville',
-    price: 89,
+    price: 20000,
     features: ['Lit double', 'Wi-Fi gratuit', 'TV écran plat', 'Salle de bain privée'],
     image: '🏨',
     slug: 'standard'
@@ -28,7 +28,7 @@ const ROOMS: Room[] = [
     id: '2',
     name: 'Chambre Deluxe',
     description: 'Chambre spacieuse avec balcon et vue panoramique',
-    price: 129,
+    price: 40000,
     features: ['Lit king-size', 'Balcon privé', 'Mini-bar', 'Bain à remous'],
     image: '🏩',
     slug: 'deluxe'
@@ -37,7 +37,7 @@ const ROOMS: Room[] = [
     id: '3',
     name: 'Suite Présidentielle',
     description: 'Suite de luxe avec salon séparé et terrasse',
-    price: 249,
+    price: 80000,
     features: ['Suite complète', 'Terrasse privée', 'Service en chambre', 'Jacuzzi'],
     image: '🏰',
     slug: 'suite-presidentielle'
@@ -208,7 +208,7 @@ export default function HomePage() {
             {ROOMS.map(room => (
               <Link
                 key={room.id}
-                href={`/chambres/${room.slug}`}
+                href={`/chambres/{room.slug}`}
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition group cursor-pointer"
               >
                 <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform">
@@ -226,7 +226,7 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <div className="flex items-center justify-between mt-6">
-                    <span className="text-3xl font-bold text-blue-600">{room.price}frcfa</span>
+                    <span className="text-3xl font-bold text-blue-600">{room.price}F CFA</span>
                     <span className="text-sm text-gray-500">/ nuit</span>
                   </div>
                   <p className="text-sm text-blue-600 mt-4 font-medium group-hover:underline">
