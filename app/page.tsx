@@ -226,7 +226,7 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <div className="flex items-center justify-between mt-6">
-                    <span className="text-3xl font-bold text-blue-600">{room.price}€</span>
+                    <span className="text-3xl font-bold text-blue-600">{room.price}frcfa</span>
                     <span className="text-sm text-gray-500">/ nuit</span>
                   </div>
                   <p className="text-sm text-blue-600 mt-4 font-medium group-hover:underline">
